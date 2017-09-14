@@ -1,6 +1,7 @@
 # yocto-angstrom-altera-a10
 
 ##目前修改内容：
+
 ###增加fpga通过DMA读写arm侧ddr4的驱动
 
 #### 路径sources/meta-altera-refdes/recipes-altera/wr\_fpga\_ddr/
@@ -26,4 +27,4 @@
 #### 路径sources/meta-angstrom/recipes-images/angstrom
  * 去掉CONMANPKGS组件，因为connman server会执行udhcpc，自动配置ip地址
 
-### 其他文件为方便编译和镜像生成的工具
+#### 其他文件为方便编译和镜像生成的工具
