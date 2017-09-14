@@ -1,0 +1,13 @@
+[Match] 
+Name=eth0 
+  
+[Network] 
+Description=eth0 static ip
+LinkLocalAddressing=no 
+
+Address=192.168.101.115/23 
+Gateway=192.168.100.254 
+DNS=8.8.8.8
+
+[Address] 
+Address=192.168.101.115/23

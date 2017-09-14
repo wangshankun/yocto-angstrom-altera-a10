@@ -1,0 +1,7 @@
+sudo ./make_sdimage.py  \
+  -f \
+  -P uboot_w_dtb-mkpimage.bin,num=3,format=raw,size=10M,type=A2  \
+  -P rootfs/*,num=2,format=ext3,size=1500M  \
+  -P zImage,ghrd_10as066n2.core.rbf,ghrd_10as066n2.periph.rbf,socfpga_arria10_socdk_sdmmc.dtb,num=1,format=vfat,size=500M  \
+  -s 2G  \
+  -n sdimage.img
