@@ -1,8 +1,8 @@
 # yocto-angstrom-altera-a10
 
-##目前修改内容：
+## 目前修改内容：
 
-###增加fpga通过DMA读写arm侧ddr4的驱动
+### 增加fpga通过DMA读写arm侧ddr4的驱动
 
 #### 路径sources/meta-altera-refdes/recipes-altera/wr\_fpga\_ddr/
  * dma驱动发送接收并相应中断的例子
